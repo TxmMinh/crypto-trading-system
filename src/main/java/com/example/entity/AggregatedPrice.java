@@ -18,8 +18,6 @@ import java.time.LocalDateTime;
 
 /**
  * Stores the best aggregated price for each trading pair.
- * - bidPrice: highest bid price across exchanges -> used for SELL orders
- * - askPrice: lowest ask price across exchanges  -> used for BUY orders
  */
 @Entity
 @Table(name = "aggregated_price")
